@@ -2706,7 +2706,7 @@ input, select, textarea {
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+		background-image: url("images/top-3200.svg"), url("images/.png"), url("../../images/andreas-ronningen-8hRYTck6LBQ-unsplash.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
@@ -2795,13 +2795,15 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background-attachment: scroll;
-		background-color: #4eb980;
-		background-image: url("images/bottom-3200.svg");
-		background-position: top center;
-		background-repeat: repeat-x;
-		background-size: 3200px 460px;
+		background-attachment: scroll,							scroll,					fixed;
+		background-image: url("images/top-3200.svg"), url("images/.png"), url("../../images/andreas-ronningen-8hRYTck6LBQ-unsplash.jpg");
+		background-position: bottom center,					top left,				center center;
+		background-repeat: repeat-x,						repeat,					no-repeat;
+		background-size: 3200px 460px,					auto,					cover;
 		color: rgba(255, 255, 255, 0.8);
+		padding: 10em 0 20em 0;
+		position: relative;
+		text-align: center;
 		/*
 				Since the SVG background occupies a lot of vertical space, we'll
 				add additional top padding (to move our content out of its way)
@@ -2847,7 +2849,7 @@ input, select, textarea {
 		#footer .button {
 			background: #ffffff;
 			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #4eb980;
+			color: #be3232;
 		}
 
 			#footer input[type="submit"]:hover,
